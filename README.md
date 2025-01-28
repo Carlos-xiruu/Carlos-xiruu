@@ -1,6 +1,6 @@
 👋 Olá, sou o @Carlos-xiruu
 👀 Tenho interesse em tecnologia, programação e desenvolvimento de software.
-🌱 Atualmente, estou aprendendo desenvolvimento back-end com Java e explorando novas tecnologias e frameworks.
+🌱 Atualmente, estou aprendendo desenvolvimento front-end com HTML & CSS, explorando novas tecnologias e frameworks.
 💞️ Estou buscando colaborar em projetos open-source, soluções de software ou qualquer projeto onde eu possa crescer e contribuir.
 📫 Como me encontrar: Você pode me enviar um e-mail para [xiruzitosplays@gmail.com] 
 😄 Pronomes: Ele/Dele
