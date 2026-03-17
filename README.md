@@ -54,7 +54,7 @@ Crescer junto com a empresa
 Contribuir com soluções eficientes
 
 📊 GitHub Stats
-<p> <img height="160em" src="https://github-readme-stats.vercel.app/api?username=SEU-USUARIO&show_icons=true&theme=github_dark"/> <img height="160em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=SEU-USUARIO&layout=compact&theme=github_dark"/> </p>
+<p> <img height="160em" src="https://github-readme-stats.vercel.app/api?username=Carlos-xiruu&show_icons=true&theme=github_dark"/> <img height="160em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Carlos-xiruu&layout=compact&theme=github_dark"/> </p>
 📫 Contato
 
 📧 Email: [carlos.orbit@hotmail.com]
