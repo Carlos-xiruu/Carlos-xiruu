@@ -93,12 +93,10 @@ Atuar como **Desenvolvedor Júnior** em um ambiente onde eu possa:
 ## 📊 GitHub Stats
 
 <div align="center">
-  <img height="160em" src="https://github-readme-stats.vercel.app/api?username=Carlos-xiruu&show_icons=true&theme=github_dark&bg_color=120308&border_color=2f5743"/>
-  <img height="160em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Carlos-xiruu&layout=compact&theme=github_dark&bg_color=120308&border_color=2f5743"/>
-</div>
-
-<br>
-
-<div align="center">
-  <p>💡 Sempre aprendendo &nbsp;|&nbsp; 🚀 Sempre evoluindo &nbsp;|&nbsp; 🔥 Focado em construir o futuro</p>
+  <a href="https://github.com/Carlos-xiruu" target="_blank">
+    <img height="160em" src="https://github-readme-stats.shion.dev/api?username=Carlos-xiruu&show_icons=true&theme=github_dark&bg_color=120308&border_color=2f5743&include_all_commits=true&count_private=true" alt="Estatísticas do Carlos" />
+  </a>
+  <a href="https://github.com/Carlos-xiruu" target="_blank">
+    <img height="160em" src="https://github-readme-stats.shion.dev/api/top-langs/?username=Carlos-xiruu&layout=compact&theme=github_dark&bg_color=120308&border_color=2f5743" alt="Linguagens mais usadas" />
+  </a>
 </div>
