@@ -19,7 +19,7 @@ Sempre tive a curiosidade de desmontar o mundo para entender como as engrenagens
 
 Venho de uma sólida experiência prática no ambiente industrial da **WEG**, onde desenvolvi alta disciplina, organização cirúrgica e foco em resolução rápida de problemas reais. Hoje, aplico essa base na Engenharia de Software e no desenvolvimento web Full Stack, construindo soluções eficientes e arquiteturas limpas que facilitam o dia a dia das empresas e das pessoas.
 
-Fora do código, mantenho uma rotina ativa com corrida e musculação. O esporte me ensina diariamente sobre consistência, resiliência e foco no longo prazo — características que levo diretamente para a tela do computador ao debugar um código complexo ou aprender uma nova tecnologia.
+Fora do código, mantenho uma rotina ativa com corrida e musculação. O esporte me ensina diariamente sobre consistência, resiliência e foco no longo prazo características que levo diretamente para a tela do computador ao debugar um código complexo ou aprender uma nova tecnologia.
 
 Atualmente, desenvolvo aplicações modernas do zero ao deploy em produção (SaaS/PWA) e busco minha primeira oportunidade oficial como Desenvolvedor Júnior, pronto para agregar valor e escalar projetos com a equipe.
 
@@ -82,9 +82,9 @@ Sistema que substitui relógios de ponto físicos, trazendo segurança jurídica
 
 ---
 
-2️⃣ Diário de Obra — Digitalização de Registro de Obras
+### 2️⃣ Diário de Obra — Digitalização de Registro de Obras
 
-Em produção · 🔗 Demo · 📂 Repositório
+**Em produção** · [🔗 Link](https://diario-de-obras-teal.vercel.app/) · [📂 Repositório](https://github.com/Carlos-xiruu/diario-de-obras)
 
 App que digitaliza o registro diário de obras de montagem de pré-moldados, substituindo o antigo controle manual em folha impressa.
 
