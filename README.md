@@ -27,8 +27,6 @@ Atualmente, desenvolvo aplicações modernas do zero ao deploy em produção (Sa
 
 ## 🛠️ Tecnologias e Habilidades
 
-Trabalhando no ecossistema Full Stack, estas são as linguagens e ferramentas que utilizo no meu dia a dia para transformar regras de negócios complexas em software:
-
 ### 💻 Front-end & Design
 <p>
   <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"/>
@@ -45,6 +43,7 @@ Trabalhando no ecossistema Full Stack, estas são as linguagens e ferramentas qu
   <img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white"/>
   <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white"/>
   <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white"/>
 </p>
 
 ### 🔧 Ferramentas, Arquitetura & APIs
@@ -54,16 +53,79 @@ Trabalhando no ecossistema Full Stack, estas são as linguagens e ferramentas qu
   <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white"/>
   <img src="https://img.shields.io/badge/PWA-5A0FC8?style=for-the-badge&logo=pwa&logoColor=white"/>
   <img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white"/>
+
 </p>
 
 ---
 
-## 🔥 Projeto Destaque: Ponto Seguro
+## 🔥 Projetos em Destaque
 
-Desenvolvi do zero e coloquei em produção um **SaaS / PWA de Controle de Jornada de Trabalho**. O sistema substitui relógios de ponto físicos, trazendo segurança jurídica (Lei 14.063/2020) e auditoria para o RH.
-* **Geofencing (Cerca Eletrônica):** Uso da Fórmula de Haversine para bloquear batidas de ponto fora do raio da obra.
-* **Assinatura Digital:** Criptografia SHA-256 com rastreabilidade de IP e GPS para fechamento mensal.
-* **Autenticação e RLS:** Banco de dados seguro construído com Supabase (PostgreSQL) com regras estritas de nível de linha (Row Level Security).
+### 1️⃣ Ponto Seguro — SaaS/PWA de Controle de Jornada de Trabalho
+**Em produção** · [🔗 Link](pontoseguro.company) · [📂 Repositório](https://github.com/Carlos-xiruu/app_ponto)
+
+<p align="center">
+  <img src="ponto-seguro-painel.png" width="49%" alt="Painel de fechamento - Ponto Seguro" />
+  <img src="ponto-seguro-registros.png" width="49%" alt="Registros de ponto com foto - Ponto Seguro" />
+</p>
+<p align="center">
+  <img src="ponto-seguro-mobile-registros.jpeg" width="24%" alt="Meus pontos - app mobile" />
+  <img src="ponto-seguro-mobile-biometria.jpeg" width="24%" alt="Verificação biométrica - app mobile" />
+</p>
+
+Sistema que substitui relógios de ponto físicos, trazendo segurança jurídica (Lei 14.063/2020) e auditoria para o RH.
+
+- **Geofencing (Cerca Eletrônica):** Fórmula de Haversine para bloquear batidas de ponto fora do raio da obra
+- **Assinatura Digital:** Criptografia SHA-256 com rastreabilidade de IP e GPS para fechamento mensal
+- **Autenticação e RLS:** Banco de dados seguro com Supabase (PostgreSQL) e Row Level Security
+
+`React` `TypeScript` `Supabase` `PostgreSQL` `PWA`
+
+---
+
+2️⃣ Diário de Obra — Digitalização de Registro de Obras
+
+Em produção · 🔗 Demo · 📂 Repositório
+
+App que digitaliza o registro diário de obras de montagem de pré-moldados, substituindo o antigo controle manual em folha impressa.
+
+Antes vs. Depois
+
+<p align="center"> <img src="diario-obra-papel-antes.jpeg" width="32%" alt="Registro manual em papel - antes do app" /> 
+<img src="pdf_01.PNG" width="32%" alt="Parte 01 do pdf" /> 
+<img src="pdf_02.PNG" width="32%" alt="Parte 02 do pdf" />
+<img src="pdf_03.PNG" width="32%" alt="Parte 03 do pdf" />
+<img src="diario-obra-inicio.png" width="32%" alt="Tela inicial - canteiros ativos" />
+<img src="diario-obra-dashboard.png" width="32%" alt="Dashboard de gestão com gráficos" />
+</p> <p align="center"><i>À esquerda, o registro em papel usado antes do sistema. À direita, os mesmos dados hoje digitalizados em pdf gerado diretamente do app e visualizados em dashboard.</i></p>
+
+Fluxo de preenchimento do diário
+
+<p align="center"> <img src="diario-obra-identificacao.png" width="24%" alt="Etapa 1 - Identificação" /> <img src="diario-obra-producao.png" width="24%" alt="Etapa 2 - Produção e maquinário" /> <img src="diario-obra-validacao.png" width="24%" alt="Etapa 3 - Validação e informações" /> <img src="diario-obra-fotos-salvar.png" width="24%" alt="Registro fotográfico e salvar no banco" /> </p>
+Fluxo guiado em 3 etapas (identificação, produção/maquinário, validação), fiel ao formulário físico que substituiu
+Registro fotográfico anexado a cada entrada, direto da câmera ou galeria
+Dashboard com gráficos de volume montado e consumo de equipamentos por obra
+Exportação em PDF e compartilhamento por link
+Elimina retrabalho e perda de informação do processo em papel
+
+
+`React` `TypeScript` `Supabase` `PostgreSQL` `PWA`
+
+---
+
+
+
+### 3️⃣ AgendaPHP — Sistema de Agendamento
+[📂 Repositório](https://github.com/Carlos-xiruu/agenda-php)
+
+<!-- 📸 Insira aqui um print da tela de agendamento -->
+
+Sistema de agendamento funcional construído do zero como projeto de portfólio, com foco em fundamentos sólidos de back-end.
+
+- Conexões via PDO e operações CRUD completas
+- Dropdowns dinâmicos e modo escuro customizado em CSS
+- Resolução de conflitos reais de branch (master vs. main) durante o desenvolvimento
+
+`PHP` `MySQL` `CSS`
 
 ---
 
@@ -71,10 +133,9 @@ Desenvolvi do zero e coloquei em produção um **SaaS / PWA de Controle de Jorna
 
 **WEG** — Mecânico de Manutenção
 
-Experiência intensiva em ambiente industrial de ponta, atuando com:
-- Rotinas de alta responsabilidade e precisão técnica.
-- Atenção a detalhes críticos e diagnósticos de falhas em máquinas complexas.
-- Trabalho em equipe multidisciplinar e adaptação a diferentes processos fabris.
+- Rotinas de alta responsabilidade e precisão técnica
+- Diagnóstico de falhas em máquinas complexas
+- Trabalho em equipe multidisciplinar e adaptação a diferentes processos fabris
 
 *Essa vivência forjou minha base em organização, disciplina e pensamento lógico estruturado — os mesmos pilares que hoje sustentam a arquitetura dos meus códigos e resoluções de bugs.*
 
@@ -83,10 +144,10 @@ Experiência intensiva em ambiente industrial de ponta, atuando com:
 ## 🎯 Objetivo Profissional
 
 Atuar como **Desenvolvedor Júnior** em um ambiente onde eu possa:
-- Aplicar na prática meu stack tecnológico (React/TS/Supabase) e minha visão de negócios focada na entrega de valor ao cliente.
-- Aprender as melhores práticas com profissionais e engenheiros seniores.
-- Contribuir ativamente com código limpo, escalável e manutenível.
-- Iniciar uma trajetória de forte crescimento mútuo com a empresa.
+- Aplicar na prática meu stack tecnológico (React/TS/Supabase/PHP) e minha visão de negócios focada na entrega de valor ao cliente
+- Aprender as melhores práticas com profissionais e engenheiros seniores
+- Contribuir ativamente com código limpo, escalável e manutenível
+- Iniciar uma trajetória de forte crescimento mútuo com a empresa
 
 ---
 
