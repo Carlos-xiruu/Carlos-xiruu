@@ -61,7 +61,7 @@ Atualmente, desenvolvo aplicações modernas do zero ao deploy em produção (Sa
 ## 🔥 Projetos em Destaque
 
 ### 1️⃣ Ponto Seguro — SaaS/PWA de Controle de Jornada de Trabalho
-**Em produção** · [🔗 Link](pontoseguro.company) · [📂 Repositório](https://github.com/Carlos-xiruu/app_ponto)
+**Em produção** ·   [📂 Repositório](https://github.com/Carlos-xiruu/app_ponto)
 
 <p align="center">
   <img src="ponto-seguro-painel.png" width="49%" alt="Painel de fechamento - Ponto Seguro" />
@@ -84,7 +84,7 @@ Sistema que substitui relógios de ponto físicos, trazendo segurança jurídica
 
 ### 2️⃣ Diário de Obra — Digitalização de Registro de Obras
 
-**Em produção** · [🔗 Link](https://diario-de-obras-teal.vercel.app/) · [📂 Repositório](https://github.com/Carlos-xiruu/diario-de-obras)
+**Em produção**  · [📂 Repositório](https://github.com/Carlos-xiruu/diario-de-obras)
 
 App que digitaliza o registro diário de obras de montagem de pré-moldados, substituindo o antigo controle manual em folha impressa.
 
